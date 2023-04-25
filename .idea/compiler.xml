@@ -11,5 +11,8 @@
         <module name="ums.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ums" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
