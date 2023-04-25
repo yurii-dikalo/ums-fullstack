@@ -1,0 +1,22 @@
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Вирівнювання елементів по горизонталі в центрі */
+  align-items: center; /* Вирівнювання елементів вертикально по центру */
+}
+
+nav button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #0056b3;
+}
