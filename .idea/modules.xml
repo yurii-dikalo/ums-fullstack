@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.example.ums.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.example.ums.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.example.ums.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.example.ums.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ums-fullstack.iml" filepath="$PROJECT_DIR$/.idea/ums-fullstack.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ums.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ums.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ums.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ums.test.iml" />
