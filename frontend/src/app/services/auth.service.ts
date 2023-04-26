@@ -4,7 +4,6 @@ import {Observable} from 'rxjs';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {CookieService} from 'ngx-cookie-service';
 import {tap} from 'rxjs/operators';
-import {TokenStorageService} from "../token/token-storage.service";
 
 const API_URL = environment.apiUrl;
 const LOGIN_ENDPOINT = '/login';
