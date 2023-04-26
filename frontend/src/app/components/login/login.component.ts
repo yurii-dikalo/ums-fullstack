@@ -19,7 +19,7 @@ export class LoginComponent {
     this.authService.login(this.username, this.password).subscribe(
       () => {
         console.log("trying to redirect");
-        window.location.href = '/users';
+        this.router.navigate(['/users']);
       },
       () => {
         this.loginError = 'Incorrect username or password. Please try again.';

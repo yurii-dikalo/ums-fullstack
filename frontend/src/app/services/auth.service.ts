@@ -7,6 +7,7 @@ import {tap} from 'rxjs/operators';
 
 const API_URL = environment.apiUrl;
 const LOGIN_ENDPOINT = '/login';
+const LOGOUT_ENDPOINT = '/logout';
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
@@ -26,6 +27,10 @@ export class AuthService {
           this.cookieService.set('jwtToken', token);
         })
       );
+  }
+
+  logout(): Observable<any> {
+    return this.http.get(API_URL + LOGOUT_ENDPOINT);
   }
 
   getToken(): string {

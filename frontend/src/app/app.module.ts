@@ -9,12 +9,17 @@ import { UsersComponent } from './components/users/users.component';
 import {TokenInterceptor} from "./token/token.interceptor";
 import {FormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
+import { DatePipe } from '@angular/common';
+import { MessagesComponent } from './components/messages/messages.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UsersComponent,
+    MessagesComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,6 +29,7 @@ import {RouterModule} from "@angular/router";
     FormsModule
   ],
   providers: [
+    DatePipe,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: TokenInterceptor,
